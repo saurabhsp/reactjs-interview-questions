@@ -1130,7 +1130,12 @@ class ParentComponent extends React.Component {
 
 24. ### What is Lifting State Up in React?
 
-    When several components need to share the same changing data then it is recommended to _lift the shared state up_ to their closest common ancestor. That means if two child components share the same data from its parent, then move the state to parent instead of maintaining local state in both of the child components.
+   Lifting state up is a technique in React where you move the state to the nearest common ancestor of the components that need access to it. This approach helps avoid complex state management patterns and ensures consistency among components. 
+   
+   
+   When several components need to share the same changing data then it is recommended to _lift the shared state up_ to their closest common ancestor. That means if two child components share the same data from its parent, then move the state to parent instead of maintaining local state in both of the child components. 
+
+    
 
     **[⬆ Back to Top](#table-of-contents)**
 
